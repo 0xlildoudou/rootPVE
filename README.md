@@ -12,7 +12,7 @@ python3 rootPVE.py --target <FQDN/IP> --Password <password_list>
 ```
 ### Help
 ```
-usage: rootPVE.py [-h] --target TARGET --Password PASSWORD [--verbose]
+usage: rootPVE.py [-h] --target TARGET --Password PASSWORD [--verbose] [-T T] [--timeout TIMEOUT]
 
 options:
   -h, --help            show this help message and exit
@@ -21,4 +21,6 @@ options:
   --Password PASSWORD, -P PASSWORD
                         Password file
   --verbose             Verbose mode
+  -T T                  Number of Thread (default=5)
+  --timeout TIMEOUT     Set timeout value (default=1)
 ```
